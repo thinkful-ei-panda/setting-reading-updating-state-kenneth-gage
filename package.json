@@ -1,5 +1,5 @@
 {
-  "name": "06-16-2020-chatchawan-bice-owl",
+  "name": "06-17-2020-gage-bice-drills",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,9 @@
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
+    "renderer": "^0.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
