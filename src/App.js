@@ -1,6 +1,7 @@
 import React from 'react';
 import HelloWorld from './state-drills/hello-world';
 import Bomb from './state-drills/bomb';
+import RouletteGun from './state-drills/roulette-gun';
 import './App.css';
 
 function App() { 
@@ -12,10 +13,13 @@ function App() {
 			<HelloWorld />
 			
 			<Bomb />
+
+			<RouletteGun />
 		
 		</main> 
 		
-		); 
+		);
+		
 }
 
 export default App;
