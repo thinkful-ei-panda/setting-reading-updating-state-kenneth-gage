@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import renderer from 'react-test-renderer'
-import HelloWorld from './state-drills/hello-world';
-
+import HelloWorld from './hello-world';
 
 describe ( `helloWorld Component`, () => {
 	
@@ -16,7 +15,6 @@ describe ( `helloWorld Component`, () => {
 
 	})
 
-  
 	it ( 'renders the UI as expected', () => {
 
 	  expect(
